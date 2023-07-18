@@ -1,3 +1,4 @@
+![eternal-happiness](https://github.com/MyloCyrus/supreme-happiness/assets/106925214/5a7ef0c1-5818-48b5-93a0-a04965b28e09)
 ![FINALLY_ENOUGH_LOVE](https://github.com/MyloCyrus/supreme-happiness/assets/106925214/b3c50a57-30b6-4835-bdd6-06777148b56d)
 # supreme-happiness
 one file to rule the universe; CLOSED
