@@ -1,0 +1,91 @@
+Subject: Sun Security Bulletin # 00106
+Cc: CWS@newkid.Corp.Sun.COM
+Status: RO
+
+
+ A quick addition to the message below, A SunOS 4.0.3 version of this patch
+will be available shortly, Requesting 100125-03 will get the 4.1.1, 4.1, and
+4.0.3 version. This will also be available on ftp.uu.net
+
+Brad Powell
+Sun Microsystems
+Software Security Coordinator.
+
+
+SUN MICROSYSTEMS SECURITY BULLETIN:
+
+ This information is only to be used for the purpose of alerting
+customers to problems. Any other use or re-broadcast of this 
+information without the express written consent of Sun Microsystems
+shall be prohibited.
+
+Sun expressly disclaims all liability for any misuse of this information
+by any third party.
+---------------------------------------------------------------------------
+
+
+   All of these patches are available through your local Sun answer centers
+   worldwide.
+   As well as through anonymous ftp to ftp.uu.net in the US on ~ftp/sun-dist 
+   directory and In Europe on mcsun on ~ftp/sun/fixes directory.
+
+
+Please refer to the BugID and PatchID when requesting patches from Sun
+answer centers.
+
+NO README information will be posted in the patch on UUNET. Please refer
+the the information below for patch installation instructions.
+--------------------------------------------------------------------------
+
+Sun Bug ID  : 1054669 1050269 1049886 1042370 1040722 1033809
+Synopsis    : SunOS 4.1, 4.1.1 :after telnet session aborts, new session gets 
+              previous output 
+Sun Patch ID: 100125-02
+Checksum of compressed tarfile 1001125-02.tar.Z =  44522    46
+--------------------------------------------------------------------------------
+
+Patch-ID# 100125-02
+Keywords:  telnet, previous sessions output, security
+Synopsis: SunOS 4.1, 4.1.1 :after telnet session aborts, new session gets pervious output
+Date: 21/Mar/91
+ 
+SunOS release: 4.1, 4.1.1
+ 
+Unbundled Product: 
+ 
+Unbundled Release:
+ 
+Topic: 
+ 
+BugId's fixed with this patch: 1054669 1050269 1049886 1042370 1040722 1033809
+
+
+Architectures for which this patch is available: all sun3, sun4
+
+Patches which may conflict with this patch: 
+
+Obsoleted by: SYS_V Rel 4
+
+Problem Description: 
+
+1)
+       A program was shown to take advantage of telnet in a manner that 
+       allowed passwords and login strings to be snooped when a user logged
+       in using telnet.
+
+2)     When a user telnets into another host and starts running a command that
+       outputs to the terminal in the background; then terminates the telnet session,
+       then starts a new telnet session to the same system the new telnet session
+       will get output from the previous session.
+
+INSTALL: 
+
+  # mv /usr/etc/in.telnetd /usr/etc/in.telnetd.FCS
+  # chmod 600 /usr/etc/in.telnetd.FCS (as a precaution, after verifying the new version,
+                                       the old version should be removed)
+  # cp sun{3,3x,4,4c}/in.telnetd /usr/etc/in.telnetd
+  # chmod 755 /usr/etc/in.telnetd
+  # chown root /usr/etc/in.telnetd
+  # chgrp staff /usr/etc/in.telnetd
+
+ kill any existing in.telnetd that is running. 
