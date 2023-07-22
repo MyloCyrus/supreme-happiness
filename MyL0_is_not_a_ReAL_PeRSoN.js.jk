@@ -1,0 +1,40 @@
+--:--:-- You are unauthenticated on this server, login if you have a Libera.Chat account
+12:07:58 -gold.libera.chat- *** Checking Ident
+12:07:58 -gold.libera.chat- *** Looking up your hostname...
+12:07:58 -gold.libera.chat- *** No Ident response
+12:07:58 -gold.libera.chat- *** Found your hostname: localhost
+12:07:58 -*- CGI:IRC host/IP set to 2607:fb91:482:eba5:f190:6117:68a5:51b1 2607:fb91:482:eba5:f190:6117:68a5:51b1
+12:08:23 Connected to server, your nickname is Mylo
+12:08:23 003 Mylo This server was created Thu Jun 15 2023 at 22:25:35 UTC
+12:08:23 251 Mylo There are 64 users and 42968 invisible on 28 servers
+12:08:23 252 Mylo 33 IRC Operators online
+12:08:23 254 Mylo 23275 channels formed
+12:08:23 255 Mylo I have 115 clients and 1 servers
+12:08:23 265 Mylo 115 160 Current local users 115, max 160
+12:08:23 266 Mylo 43032 45718 Current global users 43032, max 45718
+12:08:23 250 Mylo Highest connection count: 161 (160 clients) (65372 connections received)
+12:08:23 375 Mylo - gold.libera.chat Message of the Day - 
+12:08:23 - Welcome to Libera Chat, the IRC network for
+12:08:23 - free & open-source software and peer directed projects.
+12:08:23 -  
+12:08:23 - Use of Libera Chat is governed by our network policies.
+12:08:23 -  
+12:08:23 - To reduce network abuses we perform open proxy checks
+12:08:23 - on hosts at connection time.
+12:08:23 -  
+12:08:23 - Please visit us in #libera for questions and support.
+12:08:23 -  
+12:08:23 - Website and documentation:  https://libera.chat
+12:08:23 - Webchat:                    https://web.libera.chat
+12:08:23 - Network policies:           https://libera.chat/policies
+12:08:23 - Email:                      support@libera.chat
+12:08:23 * Mylo sets mode +Ziw on Mylo
+12:08:29 474 Mylo #linux Cannot join channel (+b) - you are banned
+12:08:29 315 Mylo gamja End of /WHO list.
+12:08:30 263 Mylo WHO This command could not be completed because it has been used recently, and is rate-limited.
+12:08:30 315 Mylo * End of /WHO list.
+12:08:30 263 Mylo WHO This command could not be completed because it has been used recently, and is rate-limited.
+12:08:30 315 Mylo * End of /WHO list.
+12:08:31 263 Mylo WHO This command could not be completed because it has been used recently, and is rate-limited.
+12:08:31 315 Mylo * End of /WHO list.
+Type a command (see /help)
